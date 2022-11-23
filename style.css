@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 html,body{
 overflow-x: hidden
 }
@@ -15,7 +17,6 @@ body{
 	box-sizing: border-box;
 }
 h1, h2, h3, h4, h5,h6, p{
-font-family: 'Clear Sans Regular';
 	margin: 0;
 }
 a{
@@ -67,6 +68,7 @@ a{
     color: #fff;
 }
 .name a{
+    font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	text-decoration: none;
 }
@@ -256,6 +258,7 @@ a{
     text-align: center;
 }
 .onas{
+    font-family: 'Vollkorn', serif;
     text-align: center;
     font-size: 30px;
     font-weight: 700;
@@ -271,6 +274,7 @@ a{
     background-color: #000;
 }
 .txt_onas{
+    font-family: 'Comfortaa', cursive;
     margin-top: 30px;
     font-size: 18px;
     color: #000;
@@ -298,6 +302,7 @@ a{
     align-items: center;
 }
 .n_uslugi{
+    font-family: 'Vollkorn', serif;
     text-align: center;
     padding-top: 30px;
     margin-top: 40px;
@@ -319,17 +324,22 @@ a{
 }
 .usl1{
     margin: 0;
+    border-bottom: 1px solid #fff;
 }
 .usl2{
-    margin: 0 10px
+    margin: 0 10px;
+    border-bottom: 1px solid #fff;
 }
 .usl3{
     margin: 0 10px;
+    border-bottom: 1px solid #fff;
 }
 .usl4{
     margin: 0;
+    border-bottom: 1px solid #fff;
 }
 .txtn{
+    font-family: 'Comfortaa', cursive;    
     color: #fff;
     margin-top: 10px;
     padding-bottom: 10px;
@@ -343,6 +353,7 @@ a{
     padding: 40px 0;
 }
 .unik{
+    font-family: 'Vollkorn', serif;
     font-size: 30px;
     font-weight: 700;
     padding-bottom: 40px;
@@ -446,20 +457,20 @@ button:focus {
 }
 .uniname{
     font-size: 48px;
-  font-family: 'Philosopher', sans-serif;
+    font-family: 'Vollkorn', serif;
 }
 .opi{
-  font-family: 'Roboto Slab', cursive;
-  margin: 0 50px;
-  font-size: 18px;//
-  text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin: 0 50px;
+    font-size: 18px;
+    text-align: center;
 }
 
 /*Statistics*/
 .statistics {
     background-color: #0C8CBC;
     border-bottom: 1px solid #fff;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 .stxt{
     color: #fff;
@@ -482,6 +493,7 @@ button:focus {
     flex: 1 1 0;
     padding: 70px 25px;
     text-align: center;
+    border-bottom: 1px solid #fff;
 }
 .stat__count {
     margin-bottom: 10px;
@@ -491,6 +503,7 @@ button:focus {
     color: #fff;
 }
 .stat__text {
+    font-family: 'Comfortaa', cursive;
     color: #fff;
     font-size: 14px;
     text-transform: uppercase;
@@ -504,6 +517,8 @@ button:focus {
     justify-content: center;
 }
 .chtob{
+    font-size: 30px;
+    font-family: 'Vollkorn', serif;
     text-align: center;
     margin: 0 auto;
     color: #000;
@@ -516,14 +531,13 @@ button:focus {
 }
 .icow{
     width: 24px;
-    height: 24px;
+    height: 20px;
 }
 .btnwats{
     line-height: 1;
-    margin:0 auto;
     padding: 1700px;
-    font-size: 20px;
-    font-family: monospace;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
     color: #fff;
     background: linear-gradient(to left, #c2e59c, #3494E6);
     text-decoration: none;
@@ -537,9 +551,8 @@ button:focus {
 }
 .btninst{
     line-height: 1;
-
-    font-size: 20px;
-    font-family: monospace;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
     color: #fff;
     background: linear-gradient(to left, #EC6EAD, #3494E6);
     text-decoration: none;
@@ -560,6 +573,7 @@ button:focus {
 
 /*Team*/
 .team{
+    font-family: 'Vollkorn', serif;
     background-color: #0C8CBC;
     margin-top: 10px;
     padding-bottom: 25px;
@@ -569,6 +583,7 @@ button:focus {
     justify-content: center;
 }
 .ourteam{
+    font-family: 'Vollkorn', serif;
     padding-top: 20px;
     color: #fff;
     text-align: center;
@@ -594,6 +609,14 @@ button:focus {
 }
 .suretter{
     padding-top: 20px;
+}
+.mapp:after{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 2px;
+    margin: 10px auto;
+    background-color: #fff;
 }
 .dimash{
     padding-top: 50px;
@@ -647,14 +670,15 @@ button:focus {
     text-transform: uppercase;
 }
 .btni{
-    line-height: 5;
+    letter-spacing: 2px;
+    line-height: 4;
     padding: 210px;
-    font-size: 20px;
-    font-family: monospace;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
     color: #fff;
-    background: linear-gradient(to left, #833ab4, #fd1d1d, #fcb045);
+    background: linear-gradient(to left, #DB90EF, #DB90EF);
     text-decoration: none;
-    padding: 20px 70px;
+    padding: 16px 60px;
     border-radius: 40px;
     background-size: 200%;
     transition: .5s;
@@ -663,14 +687,15 @@ button:focus {
     background-position: right;
 }
 .btnt{
-    line-height: 3;
+    letter-spacing: 2px;
+    line-height: 2;
     padding: 210px;
-    font-size: 20px;
-    font-family: monospace;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
     color: #fff;
-    background: linear-gradient(to left, #000046, #1CB5E0);
+    background: linear-gradient(to left, #2357CF, #2357CF);
     text-decoration: none;
-    padding: 20px 70px;
+    padding: 16px 60px;
     border-radius: 40px;
     background-size: 200%;
     transition: .5s;
@@ -820,8 +845,12 @@ button:focus {
     .statistics {
         margin-top: 0;
     }
+    .stat_item{
+        border-right: 0;
+        border-bottom: 1px solid #fff   ;
+    }
     .razdel_uslug{
-        margin: 10px auto;
+        margin: 0px auto;
     }
 }
 
@@ -862,7 +891,7 @@ button:focus {
         display: block;
     }
     .stat_item{
-                border-bottom: 1px solid #fff;
+        border-bottom: 1px solid #fff;
     }
     .uslugalar{
         display: block;
