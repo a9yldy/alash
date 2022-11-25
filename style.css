@@ -970,5 +970,7 @@ button:focus {
     .uslugalar{
         display: block;
     }
-
+	.button{
+		margin-top: 40px;
+	}
 }
