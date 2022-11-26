@@ -854,7 +854,7 @@ button:focus {
         display: none
     }
     .intro_txt3:after {
-        display: none;
+        display: block;
     }
     .zhaz{
         display: none;
