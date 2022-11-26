@@ -771,6 +771,9 @@ button:focus {
 }
 
 @media (max-width: 990px) {
+    .con{
+         max-width: 100%;
+    }
     .otxt{
         font-size: 23px;
         margin-bottom: 15px;
@@ -792,12 +795,18 @@ button:focus {
 }
 
 @media (max-width: 830px) {
+    .con{
+         max-width: 100%;
+    }
     .stxt{
         font-size: 24px;
     }
 }
 
 @media (max-width:868px){
+    .con{
+         max-width: 100%;
+    }
     .foot{
         width: 500px;
         height: 290px;
@@ -805,6 +814,9 @@ button:focus {
 }
 
 @media (max-width: 770px) {
+    .con{
+         max-width: 100%;
+    }
     .header{
         margin-left: px;
         padding-top: 10px 0;
@@ -850,6 +862,9 @@ button:focus {
     body{
         margin: 0;
     }
+    .con{
+         max-width: 100%;
+    }
     .btn{
         display: none
     }
@@ -878,6 +893,9 @@ button:focus {
     body{
         margin: 0;
     }
+    .con{
+         max-width: 100%;
+    }
     .foot{
         width: 400px;
         height: 190px;
@@ -888,6 +906,9 @@ button:focus {
 @media screen and (max-width: 657px) {
     body{
         margin: 0;
+    }
+    .con{
+         max-width: 100%;
     }
     .foot{
         width: 0px;
@@ -901,6 +922,9 @@ button:focus {
 }
 
 @media screen and (max-width: 575px) {
+    .con{
+         max-width: 100%;
+    }
     .stud__photo {
         position: static;
     }
@@ -918,6 +942,9 @@ button:focus {
 @media screen and (max-width: 558px) {
     body{
         margin: 0;
+    }
+    .con{
+         max-width: 100%;
     }
     .univers{
         display: none;
