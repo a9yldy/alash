@@ -377,6 +377,7 @@ a{
 .uslugalar{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .n_uslugi{
     font-family: 'Vollkorn', serif;
@@ -553,6 +554,7 @@ button:focus {
 .stat {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .stxt{
     font-size: 30px;
@@ -658,6 +660,7 @@ button:focus {
     display: flex;
     flex-wrap: wrap;
     margin-top: 70px;
+    justify-content: center;
 }
 
 .stud__item {
