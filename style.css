@@ -28,7 +28,7 @@ a{
 }
 .con{
     width: 100%;
-    max-width: 1230px;
+    max-width: auto;
     padding: 0 15px;
     margin: 0 auto;
 }
