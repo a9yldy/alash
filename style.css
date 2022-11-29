@@ -825,9 +825,10 @@ button:focus {
         padding-top: 10px 0;
     }
     .logo{
-        margin-top: 0;
-
-        margin-left: 10px;
+        font-family: Stage Hollow;
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
     }
     
     /* Nav */
